@@ -1,6 +1,7 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 body {
     margin: 0;
+    background: #F9FCFF;
 }
 article, aside, footer, header, nav, section, figcaption, figure, main {
     display: block;
@@ -19,6 +20,9 @@ figure {
 #__bs_notify__ {
     display: none !important;
 }
+
+
+
 main {
     margin: 0 auto;
     padding: 0 2rem;
@@ -75,7 +79,7 @@ main {
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 html {
-    background: #F9FCFF;
+    background: #fff;
     color: #333;
     font-size: 10px;
     font-family: Open Sans, sans-serif;
@@ -113,6 +117,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 footer {
     background: #333;
     color: #fff;
