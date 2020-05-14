@@ -87,6 +87,7 @@ header:after {
 }
 
 .rocky-dashed {
+  width: 200px;
   -webkit-animation-delay: .6s;
           animation-delay: .6s;
 }
