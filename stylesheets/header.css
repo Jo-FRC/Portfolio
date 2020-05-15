@@ -366,3 +366,7 @@ a {
     transform: scale(1.0, 1.0) translate(0, -3px)
   }
 }
+
+span {
+  color: #ffa69e;
+}
