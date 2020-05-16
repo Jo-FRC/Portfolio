@@ -24,7 +24,7 @@ header {
   -webkit-perspective: 100px;
 
           perspective: 100px;
-  color: #0077b6;
+  color: #0d3b66;
 }
 
 header:before {
@@ -368,5 +368,5 @@ a {
 }
 
 span {
-  color: #ffa69e;
+  color: #0d3b66;
 }

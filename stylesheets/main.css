@@ -119,73 +119,20 @@ a:hover {
 }
 
 footer {
-    height: 5vh;
+
     background: #333;
     color: #fff;
-    padding: 6rem;
-    text-align: center;
-
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 footer a {
     color: #fff;
 }
-footer ul {
-    margin: 0;
-    padding: 0;
-}
-footer li {
-    display: inline-block;
-    margin: 0;
-}
-footer li:before {
-    content: "\2022 \A0";
-}
-footer li:first-child:before {
-    content: "";
-}
+
 /* Custom styling for the content */
-/* .rocky-image {
-    width: 100%;
-    max-width: 54rem;
-}
-.badge {
-    border-radius: 50%;
-    background: green;
-    display: flex;
-    flex-shrink: 0;
-    height: 10rem;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    min-width: 10rem;
-    width: 10rem;
-    position: relative;
-    box-shadow: 0 .2rem .1rem .1rem rgba(0,0,0,0.2);
-}
-.badge:before {
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    top: 2.5px;
-    right: 2.5px;
-    bottom: 2.5px;
-    left: 2.5px;
-    border: 6px solid #fff;
-}
-.badge.first {
-    background: red;
-}
-.badge.third {
-    background: yellow;
-} */
-/* .rocky-badge {
-    height: 70px;
-    z-index: 10;
-}
-.rocky-image-small {
-    width: 150%;
-    margin-left: -2rem;
-} */
+
 .calls-to-action {
     margin: 8rem 0 16rem;
 }
@@ -218,13 +165,24 @@ footer li:first-child:before {
 
 .section-title {
     text-align: center;
-    color: #00a6fb;
+    color: #0d3b66;
 }
 
 .inner-text-wrapper {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.text-top {
+  text-align: center;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .button {
@@ -282,4 +240,20 @@ color: #ff686b;
 .mail:hover::after {
     width: 100%;
 
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social a {
+  padding: 0 2rem;
+  transition: all .2s ease-in-out;
+}
+
+.social a:hover {
+  color: #ff686b;
 }
