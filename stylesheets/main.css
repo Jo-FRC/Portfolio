@@ -258,15 +258,29 @@ color: #ff686b;
   color: #ff686b;
 }
 
-@media (max-width: 575.98px) { ... }
+.link a{
+  color: black;
+  transition: all .2s ease-in-out;
+}
+
+.link a:hover {
+  color: #ff686b;
+  text-decoration: none;
+}
+
+/* @media screen
+ and (max-device-width: 575.98px) { ... }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
+@media screen
+ and (max-device-width: 767.98px) { ... }
 body {
   color: red;
 }
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+@media screen
+ and (max-device-width: 991.98px) { ... }
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
+@media screen
+ and (max-device-width: 1199.98px) { ... } */
