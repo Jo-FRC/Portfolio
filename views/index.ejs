@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Johanna Farace</title>
+    <link rel="icon"  href="code-solid.svg"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <!-- The default layout, resets and and text styling -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- Custom styling for the header -->
+    <link href="stylesheets/header.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <header>
+      <section class="header-content context">
+
+          <i class="fas fa-code fa-3x rocky-dashed animate-pop-in"></i>
+          <h1 class="header-title animate-pop-in">Ciao, sono Johanna</h1>
+          <h3 class="header-subtitle animate-pop-in">Ho 26 anni, vivo Capri e sono una <span>Full Stack developer</span></h3>
+          <p class=" animate-pop-in header-button"><a href="https://github.com/Jo-FRC" target="_blank"><i class="fab fa-github fa-3x anim"></i></a></p>
+
+
+      </section>
+      <div class="area" >
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
+      <section class="header-down-arrow">
+        <img src="downarrow.png" width="50">
+      </section>
+
+    </header>
+
+
+    <section class="grid-container">
+
+      <div class="text-wrapper" style="--text-color: #fff;">
+        <div class="text-top">
+          <h1 class="fade-from-left section-title">About me</h1>
+          <p class="fade-from-top inner-text-wrapper">
+            Sono laureata in "Comunicazione e New Media" all'università IULM di Milano. È stato proprio durante il mio periodo di studi che si è accesa la mia curiosità per il software development. <br />
+            Dopo aver imparato le basi ho deciso di immergermi completamente in questo mio passatempo e mi sono iscritta ad un corso di Full Stack Development alla <span class="link"><a href="https://www.spiced-academy.com/en/program/full-stack-web-development#">SPICED Academy</a></span> a Berlino. <br />
+            Sono stati probabilmente i mesi più stancanti, ma allo stesso tempo anche i più belli della mia vita.<br />
+            Mi piacerebbe inserirmi in un contesto lavorativo che mi permetterebbe di crescere come developer e di sviluppare web app all'avanguardia.
+            <br /><br />
+            <span><strong>"Non mi stanco mai di imparare, la mia energia è il risultato del mio profondo interesse    per le nuove tecnologie"</strong></span><br /><br />
+            Le mie skills:
+          </p>
+          <ul class="skills">
+            <li>HTML5, CSS3, JS ES9, TypeScript, jQuery</li>
+            <li>Frontend frameworks: React, Redux, Angular, Backbone.js</li>
+            <li>Backend: Node.js, Deno, Express, RESTful API, MERN-Stack</li>
+            <li>Database: Postgres (SQL), Redis (NoSQL), MongoDB (NoSQL)</li>
+          </ul>
+        </div>
+      <div class="links">
+        <p>Mettiamoci in contatto: <a class="mail" href="mailto:johanna.farace@gmail.com">Johanna.farace@gmail.com</a></p>
+
+
+        <a class="button btn-2" href="assets/img/Johanna_Farace_CV.pdf" download="Johanna_Farace_CV">Scarica il mio CV</a>
+
+      </div>
+      </div>
+
+      <footer>
+        <p>Grazie!</p>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/johanna-farace/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></i></a>
+          <a href="https://www.facebook.com/Johanna.the.first" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+          <a href="https://www.instagram.com/johannafarace/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+      </footer>
+    </section>
+
+
+    <script>
+      // Prepare the body tag by adding a "js-paused" class
+      document.body.className += " js-loading";
+
+      // Listen for when everything has loaded
+      window.addEventListener("load", showPage, false);
+
+      function showPage() {
+        // Remove the "js-paused" class
+        document.body.className = document.body.className.replace("js-loading","");
+      }
+    </script>
+  </body>
+</html>
