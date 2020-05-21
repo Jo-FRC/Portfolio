@@ -1,4 +1,4 @@
-var express = require('express'),
+const express = require('express'),
     app = express(),
     bodyParser = require('body-parser');
 
@@ -11,6 +11,8 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
-app.listen(process.env.PORT || 8080, function(){
-    console.log("I'm lstening!");
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, function(){
+    console.log(`Listening on port ${PORT}`);
 });
