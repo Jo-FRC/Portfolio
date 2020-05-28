@@ -268,6 +268,17 @@ color: #ff686b;
   text-decoration: none;
 }
 
+@media screen and (max-width:640px) {
+  footer {
+    display: grid;
+    grid-template-columns:  1fr 2fr
+  }
+
+  .social {
+
+  }
+}
+
 /* @media screen
  and (max-device-width: 575.98px) { ... }
 
